@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #22222271, #11111133),
+    url(../img/montain.jpg) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* app styles */
+
+.app {
+  width: 400px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  padding: 20px;
+  color: #fff;
+  font-weight: 300;
+}
+
+.app form input,
+button {
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 12px;
+  background: rgba(88, 88, 88, 0.6);
+  color: #fff;
+}
+
+.app form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* btn styles */
+
+#btn-search {
+  color: rgb(32, 32, 32);
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 8px 12px;
+  transition: 0.2s;
+}
+
+#btn-search:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* about temp styles */
+
+.app .content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.app .content .temp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.app .content h1 {
+  font-weight: 300;
+  font-size: 1.7em;
+  letter-spacing: 1.2px;
+  margin-bottom: 20px;
+}
